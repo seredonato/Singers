@@ -1,0 +1,142 @@
+body{
+background: #ffe6fa;
+}
+
+#aqui{
+    color: #ff007a;
+}
+
+#aqui:hover{
+    text-decoration: none;
+    color: #20c997;
+}
+
+#nav {
+    background: #000;
+}
+
+#search {
+    width: 80%;
+}
+
+#form-search {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-cantante {
+    text-align: center;
+    margin-left: 5.1em;
+    margin-right: 5.1em;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+.botones-tooltip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.botones-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.nombre-descripcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.display-4 {
+    color: #fff;
+    text-align: left;
+}
+
+@media screen and (max-width: 769px) {
+    #nav {
+        width: 100%;
+    }
+
+    #form-search {
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .boton-search {
+        margin-top: 1em;
+    }
+
+    .cont-header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 0.5em;
+
+    }
+
+    .form-header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-header {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .botones-tooltip {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-rigth: 2em;
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 376px) and (max-width: 767px) {
+    .col-12.col-md-4.m-auto {
+        margin: auto;
+        max-width: 85%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-12.col-md-4.m-auto {
+        margin: auto;
+        flex: 0 0 49.333333%;
+        max-width: 90%;
+    }
+
+    .botones-tooltip {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: auto;
+        padding: 0.5em;
+        margin-bottom: 1em;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-12.col-md-4.m-auto {
+        margin: auto;
+        flex: 0 0 40%;
+        max-width: 90%;
+    }
+}
